@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://play-lh.googleusercontent.com/ZS0hkyWKlKgGvPmDx-k6X3moKTiknbN_9YmP9EHBDYroPjaFZUK2jELXlquFOKtoQA");
+background-size: cover;
+}
+
+.box {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.otp-inputs input {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ddd;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.otp-inputs input:last-child {
+    margin-right: 0;
+}
+
+.resend {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.resend a {
+    color: blue;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #444;
+}
+
+.submit-btn:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
