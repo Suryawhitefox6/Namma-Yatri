@@ -5,5 +5,5 @@ Then it's redirected into a page which user can choose the pickup and drop and t
 Then user get the details of the nearby drivers
 Open namma yatri.html and run the website.
 now you can see the prototype of the website. We made only the prototype of the website. Only depends on front-end web development tools 
-like html, css and javascript
+like html, css and javascript.
 
